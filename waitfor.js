@@ -1,4 +1,4 @@
-export function waitFor(selector) {
+function waitFor(selector) {
   return new Promise((resolve, reject) => {
     const e = document.querySelector(selector);
     if (e) {
